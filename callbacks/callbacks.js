@@ -68,7 +68,7 @@ calculate(10, 5, substract);
 // Son funciones que retornan otra función
 function multiplyBy(num, num2, num3) {
     const num4 = 4;
-    return function(x){
+    return function(x) {
         console.log("num4", num4)
         return x * num4;
     }
